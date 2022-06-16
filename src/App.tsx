@@ -3,7 +3,6 @@ import styles from './App.module.scss';
 import React from 'react';
 
 import Settings from 'settings';
-import Download from 'download';
 
 const App = () => {
 
@@ -25,8 +24,6 @@ const App = () => {
       <audio autoPlay loop />
 
       <Settings audio={audio} />
-
-      <Download />
 
     </div>
   );
