@@ -7,14 +7,14 @@ const Download = () => {
     <div className={styles.container}>
 
       <div>
-        <a href={""} target="_blank" rel="noreferrer" download="ctalk.zip">
+        <a href={"ipfs://bafybeidovoxgyey6t7yosinnrri4pubwjhqc2vm2vj7msbbdjgugz6mztm"} target="_blank" rel="noreferrer" download="ctalk.zip">
           <span>Download for Mac</span>
           <span><AiOutlineApple/></span>
         </a>
       </div>
 
       <div>
-        <a href={""} target="_blank" rel="noreferrer" download="ctalk.zip">
+        <a href={"ipfs://bafybeihsyshfd5naabzdfruwlnaforxqrdjcjfp3mu6rbg5f7dj6w3ssai"} target="_blank" rel="noreferrer" download="ctalk.zip">
           <span>Download for Windows</span>
           <span><AiOutlineWindows/></span>
         </a>

@@ -20,6 +20,7 @@
     "typescript": "^4.7.3",
     "web-vitals": "^2.1.4"
   },
+  "main": "public/main.js",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -28,7 +29,7 @@
     "dev": "concurrently -k \"BROWSER=none npm start\" \"npm:electron\"",
     "electron": "wait-on tcp:3000 && electron .",
     "electron:build:mac": "electron-packager . --platform=darwin --asar --icon=public/logo192.icns --prune=true --overwrite",
-    "electron:build:win": "electron-packager . --platform=win32 --asar --icon=public/logo192.png --prune=true --overwrite"
+    "electron:build:win": "electron-packager . --platform=win32 --arch=x64 --asar --icon=public/logo192.png --prune=true --overwrite"
   },
   "eslintConfig": {
     "extends": [
