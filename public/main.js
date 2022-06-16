@@ -5,15 +5,15 @@ require('@electron/remote/main').initialize();
 const createWindow = () => {
     const win = new BrowserWindow({
         title: "cTalk Task",
-        width: 500,
-        height: 500,
+        width: 800,
+        height: 800,
         webPreferences: {
             nodeIntegration: false,
             enableRemoteModule: true,
             devTools: false
         }
     });
-    win.loadURL("http://localhost:3000");
+    win.loadURL("https://ctalk.on.fleek.co");
 };
 
 app.on("ready", createWindow);

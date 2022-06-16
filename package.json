@@ -2,6 +2,7 @@
   "name": "ctalk",
   "version": "0.1.0",
   "private": true,
+  "homepage": "./",
   "dependencies": {
     "@electron/remote": "^2.0.8",
     "@testing-library/jest-dom": "^5.16.4",
@@ -19,7 +20,6 @@
     "typescript": "^4.7.3",
     "web-vitals": "^2.1.4"
   },
-  "main": "public/main.js",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
